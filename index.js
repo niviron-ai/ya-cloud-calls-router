@@ -44,7 +44,7 @@ async function handler (event, context) {
             /* MAIN HANDLER  Use input.data.object */
             case I.cloud.events.external.json: // May be webhook setting or webhook call, or API call
                 I.log('* MAIN HANDLER INVOKING *');
-                if (context._data.params && context._data.params.bot_id) {
+                if (context._data.params && context._data.params.source && context._data.params.source === 'from_telegram') {
                     console.log('BOT DISPATCHER :: HANDLER :: INITIAL BOT REQUEST :: ', input.data.string);
                     result = await Bots.process(input, context._data.params.bot_id);
                 }
