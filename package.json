@@ -1,0 +1,41 @@
+{
+  "name": "@dieugene/ya-cloud-calls-router",
+  "version": "1.0.0",
+  "description": "Центральный диспетчер вызовов для Yandex Cloud функций с поддержкой маршрутизации событий, обработки веб-хуков, очередей сообщений и управления Telegram ботами",
+  "main": "index.js",
+  "keywords": [
+    "yandex-cloud",
+    "serverless",
+    "telegram-bot",
+    "webhook",
+    "message-queue",
+    "event-router",
+    "dispatcher",
+    "cloud-functions"
+  ],
+  "author": "Eugene Ditkovsky",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niviron-ai/ya-cloud-calls-router.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@dieugene/logger": "^1.0.3",
+    "@dieugene/queuer": "^2.0.0",
+    "@dieugene/tg-updates-checker": "^1.0.0",
+    "@dieugene/utils": "^1.14.18"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "files": [
+    "index.js",
+    "package.json",
+    "README.md"
+  ]
+}
