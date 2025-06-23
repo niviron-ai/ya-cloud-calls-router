@@ -28,7 +28,7 @@
   "dependencies": {
     "@dieugene/logger": "^1.0.3",
     "@dieugene/queuer": "^2.0.0",
-    "@dieugene/tg-updates-checker": "^1.0.0",
+    "@dieugene/tg-updates-checker": "^2.0.0",
     "@dieugene/utils": "^1.14.18"
   },
   "devDependencies": {},
