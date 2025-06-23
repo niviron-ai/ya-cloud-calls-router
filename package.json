@@ -1,6 +1,6 @@
 {
   "name": "@dieugene/ya-cloud-calls-router",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Центральный диспетчер вызовов для Yandex Cloud функций с поддержкой маршрутизации событий, обработки веб-хуков, очередей сообщений и управления Telegram ботами",
   "main": "index.js",
   "keywords": [
